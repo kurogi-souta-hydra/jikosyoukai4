@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>Profile Site</title>
+    <meta name="description" content="プロフィールや趣味、制作物などを紹介しているサイトです。">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="img/favicon.ico">
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/top.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+  </head>
+
+  <body>
+    <!-- header -->
+    <header id="header" class="wrapper">
+      <h1 class="logo">
+        <a href="index.html">
+          <img src="img/logo.svg" alt="Profile Site">
+        </a>
+      </h1>
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+      </div>
+      <nav>
+        <ul class="navi">
+          <ul class="menu">
+            <li><a href="index.html">Top</a></li>
+            <li><a href="profile.html">Profile</a></li>
+            <li><a href="QandA.html">Q&A</a></li>
+          </ul>
+        </ul>
+      </nav>
+    </header>
+    
+    <main class="wrapper">
+      <!-- mainvisual -->
+      <div class="mainvisual">
+        <img src="img/FF14kuritawa.png" alt="FF14のゲーム画像">
+      </div>
+      <!-- introduction -->
+      <div class="inner wrapper-1080">
+        <div class="introduction">
+          <p class="catchphrase">趣味・好きなことや最近ハマっているもの</p>
+          <p class="text">趣味はゲーム！<br><span title="フリートライアル'は'無料なので是非やって下さい">好きなゲームはFF14！</span><br>最近ハマっているものはゲームでパリィを決めることです！</p>
+        </div>
+      </div>
+      <!-- profile -->
+      <section id="profile">
+        <div class="img">
+          <img src="img/FrostHydra.png" alt="FrostHydraの画像">
+          <div class="circle">Frost Hydra</div>
+        </div>
+        <div class="detail">
+          <h2 class="section-title">
+            <span class="en">Profile</span>
+            <span class="ja">自己紹介</span>
+          </h2>
+          <p>名前は黒木 蒼太！ハンドルネームはHydraです！</p>
+          <p>テラリアというゲームのFrostHydraから名付けた<br>お気に入りの名前です！</p>
+        </div>
+      </section>
+      <!-- QandA -->
+      <section id="QandA">
+        <div class="box">
+          <h2 class="section-title">
+            <span class="en">Q&A</span>
+            <span class="ja">一問一答</span>
+          </h2>
+          <ul class="QandA-list">
+            <li>将来の夢<br>　：決まっていない！</li>
+            <li>自分の強み<br>　：継続力がある！</li>
+            <li>できること<br>　：コツコツ続けること</li>
+            <li>学校生活で頑張っていること<br>　：資格勉強！</li>
+            <li>好きなものランキング<br>　：1位ゲーム、2位動画視聴、3位音楽鑑賞</li>
+            <li>昔ハマってたゲーム<br>　：妖怪ウォッチ、マインクラフト</li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer id="footer" class="wrapper">
+      <p class="copyright">© SQUARE ENIX</p>
+    </footer>
+  </body>
+</html>
